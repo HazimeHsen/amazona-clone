@@ -1,0 +1,6 @@
+.on-not-show {
+  max-width: 50px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

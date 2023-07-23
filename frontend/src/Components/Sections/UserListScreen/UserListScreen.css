@@ -1,0 +1,20 @@
+.on-not-show {
+  max-width: 200px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.user-list {
+  margin: 0 100px;
+}
+@media (max-width: 991px) {
+  .user-list {
+    margin: 0;
+  }
+  .on-not-show {
+    max-width: 50px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}

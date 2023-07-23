@@ -1,0 +1,67 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+h1,
+h2,
+h3,
+p {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: Arial, sans-serif;
+  min-height: 100vh;
+}
+.side-search {
+  color: #f2f2f2;
+}
+.side-search:hover {
+  color: #a0a0a0;
+}
+a {
+  text-decoration: none;
+}
+.App {
+  min-height: 100vh;
+  overflow: hidden;
+  transition: 0.3s;
+}
+.full-height {
+  flex: 1;
+  margin-top: 60px;
+}
+.no-margin {
+  margin: 0;
+}
+.active-nav {
+  left: 0 !important;
+}
+.active-cont {
+  margin-left: 240px !important;
+  transition: 0.3s ease-in-out;
+}
+.side-navbar {
+  width: 240px;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: -240px;
+  transition: 0.3s ease-in-out;
+}
+.navbar-brand {
+  font-weight: bold;
+}
+.side-bar-btn {
+  position: absolute;
+  right: 10px;
+}
+.nav-side-bar-btn {
+  margin-right: 30px;
+}
+.overflow{
+  max-width: 200px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

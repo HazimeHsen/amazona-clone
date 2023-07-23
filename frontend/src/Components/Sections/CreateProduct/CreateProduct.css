@@ -1,0 +1,24 @@
+.custom-file-upload {
+    display: inline-block;
+    background: #f1f1f1;
+    color: #555;
+    border: 1px solid #ccc;
+    padding: 6px 12px;
+    border-radius: 5px;
+}
+
+.custom-file-upload:hover {
+    background: #ddd;
+}
+
+input[type="file"] {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    opacity: 0;
+}
+.image-upload{
+    position: relative;
+}

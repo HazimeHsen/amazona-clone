@@ -1,0 +1,24 @@
+{
+  "name": "shop-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "cd backend && npm install  && cd ../frontend && npm install && npm run build",
+    "start": "node backend/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HazimeHsen/Shop.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HazimeHsen/Shop/issues"
+  },
+  "homepage": "https://github.com/HazimeHsen/Shop#readme",
+  "dependencies": {
+    "react-icons": "^4.8.0"
+  }
+}

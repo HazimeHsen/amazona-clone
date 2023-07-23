@@ -1,0 +1,11 @@
+.larg-img {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+}
+.rating {
+  color: #ffc000;
+}
+.clicking {
+  cursor: pointer;
+}

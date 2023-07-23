@@ -1,0 +1,15 @@
+.product img {
+  width: 100%;
+  aspect-ratio: 0.9;
+}
+.main-header {
+  padding: 20px 0;
+}
+.product {
+  padding: 10px;
+  min-width: 200px;
+}
+.products {
+  display: flex;
+  justify-content: center;
+}

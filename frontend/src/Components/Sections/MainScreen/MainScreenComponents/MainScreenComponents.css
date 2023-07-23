@@ -1,0 +1,12 @@
+.dis {
+  cursor: no-drop !important;
+}
+.product-name {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.card{}
+.slider-handler{
+  overflow: hidden;
+}

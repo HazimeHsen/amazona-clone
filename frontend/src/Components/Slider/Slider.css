@@ -1,0 +1,35 @@
+/* ImageSlider.css */
+
+
+.image-slide {
+  border-radius: 30px;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  padding: 20px;
+  pointer-events: none;
+}
+.image-slider-container{
+  width: 100%;
+  display: flex;
+  cursor: grab;
+}
+
+.swiper-pagination-bullet {
+  background-color: #fff; /* Set the background color of the pagination bullets */
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #007bff; /* Set the background color of the active pagination bullet */
+}
+.image-slider-container.swiper-grab {
+  cursor: grab;
+}
+
+.image-slider-container.swiper-grabbing {
+  cursor: grabbing;
+}
+.swiper-slide{
+  display: flex;
+  justify-content: center;
+}
